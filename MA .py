@@ -1,9 +1,4 @@
- 
-Chats
-Search Messenger
-
-Samoi
-Loading...
+#Tehtävä 1
 
 Mon 1:38 PM
 You sent
