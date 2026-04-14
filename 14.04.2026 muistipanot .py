@@ -59,5 +59,47 @@ reversed_a = a[::-1]
 print(reversed_a)
 
 
-#f-string
+#if/ elif/ else
+##Ehto rakenne "if"'
+a = 20
+b = int(input("Anna toinen luku: "))
+if a > b:
+    print("Luku", a, "on suurempi kuin luku", b)
+elif a < b:
+    print("Luku", a, "on pienempi kuin luku", b)
+else:
+    print("Luku", a, "on yhtä suuri kuin luku", b)
+
+#Pieni Black Jack peli demo
+
+##Coincidence number generator
+import random
+casinonumber = random.randint(1, 100)
+my_number = int(input("Enter a number between 1 and 100: "))
+
+print(my_number)
+if my_number > casinonumber:
+    print(f"Congratulations! You won. The number {my_number} was bigger than {casinonumber}.")
+elif my_number == casinonumber:
+    print(f"It's a tie! Both you and the casino chose the number {my_number}.")
+else:
+    print(f"Casino wins. The number {casinonumber} was bigger than {my_number}.")
+
+
+##satunnaislukujen generointi
+import random
+kasino = 17
+minun = random.randint(1,21)
+print(f"Sait numeron {minun}")
+#vertaillaan kumpi suurempi
+if minun > kasino:
+    print(f"Sinä voitit! {minun} on suurempi kuin {kasino}")
+elif minun == kasino:
+    print(f"Tasapeli.")
+else:
+    print(f"Kasino voitti!")
+
+
+#Toistarakenne for/ while
+
 
