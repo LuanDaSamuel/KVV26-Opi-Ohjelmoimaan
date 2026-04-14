@@ -101,6 +101,7 @@ else:
 
 
 #Toistarakenne for/ while
+##Gambling (blood taking version)
 
 import random
 
