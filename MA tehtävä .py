@@ -67,7 +67,11 @@ print("This is your triangle area value", triangle)
 
 #Tehtävä 5
 
+a = int(input("Give me your radius: "))
 
+circle = a ** 2 * 3.14
+
+print(f"this is your circle area {circle} cm^2")
 
 
 #Tehtävä 6
