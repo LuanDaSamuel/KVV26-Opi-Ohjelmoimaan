@@ -100,7 +100,7 @@ else:
     print(f"Kasino voitti!")
 
 
-#Toistarakenne for/ while
+#Toistarakenne while
 ##Gambling (blood taking version)
 
 import random
@@ -141,3 +141,45 @@ elif y == k:
     
 else:
     print("Toinen nimi", kaksinimi, "on pitempi kuin eka nimi", yksinimi)
+
+#For loop
+
+names = ['Sam', 'Luan', 'Samuel', 'Samoi']
+for name in names:
+    print(name)
+
+##Upgrading
+
+names = ['Sam', 'Luan', 'Samuel', 'Samoi']
+for name in names:
+    print(name)
+print("This is the name in the list")
+names.append('Samantha')
+for name in names:
+    print(name)
+print("This is the name in the list after adding Samantha")
+
+names.remove('Sam')
+for name in names:
+    print(name)
+print("This is the name in the list after removing Sam")
+
+#List
+
+names = ['Sam', 'Luan', 'Samuel', 'Samoi']
+
+len(names)
+
+print(names[0])
+print(names[1]) 
+print(names[2])
+print(names[3])
+
+##
+names = ['Sam', 'Luan', 'Samuel', 'Samoi']
+
+len(names)
+
+for name in names:
+    print(f"Good morning, {name}!")
+    
