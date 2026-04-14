@@ -1,7 +1,6 @@
 #Tehtävä 1
 
-Mon 1:38 PM
-You sent
+
 print("I will calculate your input, please give me two numbers")
 
 a = input("How many people are there around you ? ")
@@ -21,15 +20,13 @@ print("total is", 20 + 4)
 print("difference is", 20 - 4)
 print("quotient is", 20 * 4)
 print("fraction is", 20 / 4)
-You sent
 a= int(input("Give me your height value: "))
 b= int(input("Give me your base side value: "))
 
 triangle= 1/2 * a * b
 
 print("This is your triangle area value", triangle)
-Mon 6:36 PM
-You sent
+
 #Tehtävä 1
 
 name = input("Please enter your name: ")
