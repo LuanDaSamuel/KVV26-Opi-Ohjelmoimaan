@@ -127,3 +127,17 @@ while money > 0:
         print(f"You have {money} money left.")
     continue
 print(f"Game over. You have {money} money left.")
+
+#Vertailu tehtävä
+
+yksinimi = (input("Anna eka nimi"))
+kaksinimi = (input ("Anna toka nimi"))
+y = (len(yksinimi))
+k = (len(kaksinimi))
+if y > k:
+    print("Ensimmäinen nimi", yksinimi, "on pitempi kuin toinen nimi", kaksinimi)
+elif y == k:
+    print("Nimet", yksinimi, "ja", kaksinimi, "ovat yhtä pitkiä")
+    
+else:
+    print("Toinen nimi", kaksinimi, "on pitempi kuin eka nimi", yksinimi)
