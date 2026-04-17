@@ -5,4 +5,6 @@ for i in range (1, 101):
     print(f"(Your number: {i}, square: {i**2})")
     if i == a:
         break
+#Tehtävä 2
+
 
